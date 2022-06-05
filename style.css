@@ -88,3 +88,18 @@
     color:black;
     text-align: center;
 }
+.typed-out h1{
+    overflow: hidden;
+    border-right: .15em aqua;
+    font-size: small;
+    white-space: nowrap;
+    width: 0;
+    animation:typing 1s steps(20,end) forwards;
+}
+.container{
+    display: inline-block;
+}
+@keyframes typing{
+    from {width:0}
+    to {width:100%}
+}
