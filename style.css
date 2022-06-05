@@ -60,9 +60,17 @@
     margin: 5px auto;
     transition:all 0.4 ease-in-out;
     background: whitesmoke;
+    cursor:pointer ;
 }
 @media screen  and (max-width:768px){
     .nav-container{
         position: relative;
     }
+}
+.menu-toggle.hover{
+    cursor: pointer;
+
+}
+#mobile-menu.is-active.bar:nth-child(2){
+    opacity: 0;
 }
