@@ -61,3 +61,8 @@
     transition:all 0.4 ease-in-out;
     background: whitesmoke;
 }
+@media screen  and (max-width:768px){
+    .nav-container{
+        position: relative;
+    }
+}
