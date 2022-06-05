@@ -19,6 +19,7 @@
 
 .main-content h1 {
     font-size :2rem;
+    color: aqua;
 }
 .main-content p{
     margin-top:1rem;
@@ -45,12 +46,13 @@
 }
 .main.img-container
 {
-    text-align :center;
+    text-align :right;
 }
 
-#main.img{
-    height: 80%;
-    width:80%;
+#main-img{
+    height: 40%;
+    width:45%;
+     background:black;
 }
 
 @media screen and (max-width:760px) {
