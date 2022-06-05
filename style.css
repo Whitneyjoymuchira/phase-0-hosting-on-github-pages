@@ -9,9 +9,9 @@
     padding: 0;
     font-family: 'Nunito', sans-serif; 
 }
-.nav-conatiner {
+.nav-container {
     width: 100%;
-    background-color: aliceblue;
+    background-color: black;
 }
 .navbar {
     display: grid;
@@ -23,10 +23,41 @@
 }
 #navbar-logo{
     color:brown;
-    justify-self: start;
+    justify-self: left;
     margin-left: 0px;
+
 }
 #navbar-logo{
     cursor:pointer;
 
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    justify-self: end;
+}
+.nav-links{
+    color: white;
+    text-decoration: none;
+}
+.nav-links:hover{
+    color: blue;
+    transition: all 0.4s ease-in-out;
+
+}
+.sign-up{
+    background-color: red;
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+.menu-toggle.bar{
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition:all 0.4 ease-in-out;
+    background: whitesmoke;
 }
